@@ -1,4 +1,6 @@
 from nonebot import on_command, CommandSession
+from nonebot import on_natural_language, NLPSession, IntentCommand
+from nonebot import get_bot
 import json
 from datetime import datetime
 import gpt_api
