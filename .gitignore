@@ -1,0 +1,12 @@
+*.json
+*.yml
+config.*
+*.ps1
+*.token
+*.exe
+/history
+/logs
+/data
+/venv
+/.idea
+/__pycache__
