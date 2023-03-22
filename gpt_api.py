@@ -29,6 +29,7 @@ class gpt_thread:
     def receive_message_from_api(self):
         response = []
         # self.messages.text.count
+        print('\033[32m[GPT]\033[0m Responding...')
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo-0301',
             messages=self.messages,
